@@ -55,10 +55,6 @@ var animateCircle = function(){
 //FOR DVD FUNCTIONALITY
 
 
-//will output a random integer from 0 to 2/3 the size of
-//both width and height of canvas to give a "random" starting position
-//to the rectangle...with the restriction that it won't start on the
-//bottom of the canvas
 var randomStart = function(){
     var max = 475;
     var min = 0;
@@ -67,11 +63,6 @@ var randomStart = function(){
 
 
 var animateDVD = function(){
-
-  
-
-
-    
 
     window.cancelAnimationFrame(rID);
     var x = randomStart();
