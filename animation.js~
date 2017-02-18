@@ -1,0 +1,31 @@
+var canvas = document.getElementById("slate");
+var ctx = canvas.getContext("2d");
+var circleButton = document.getElementById("circle");
+var dvdButton = document.getElementById("dvd");
+var stopButton = document.getElementById("stop");
+
+
+var requestID;
+
+var clear = function(e){
+    e.preventDefault();
+    ctx.clearRect(0,0,600,600);
+};
+
+
+var animateCircle = function(){
+
+    window.cancelAnimationFrame(requestID);
+
+    //console.log(requestID);
+
+    v
+
+
+
+
+
+
+//circleButton.addEventListener("click", animateCircle);
+//dvdButton.addEventListener("click",animateDVD);
+//stopButton.addEventListener("click", stopAnime);
